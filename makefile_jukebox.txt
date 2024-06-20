@@ -1,0 +1,19 @@
+	# build the ROM
+	
+	use command prompt or makefile.bat
+
+	# command prompt: 
+	go to "your project path"
+
+	ISAS32.exe -w 2  -t jukebox_engine.asm -o audio.o
+	ISLK32.exe audio.o -t -v -map -o audio.isx
+	
+	# use DOSBOX
+
+	mount c d:\
+	c:\"your project path here"
+	cls
+
+	VUIC.EXE audio.isx audio.vb
+
+	
