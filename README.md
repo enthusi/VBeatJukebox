@@ -24,16 +24,16 @@ Alternatively you go through the steps for Windows but use WINE and DOSBOX.
 ### WINDOWS
 Run the \
 makefile_jukebox.bat, which executes:\
-ISAS32.exe -w 2  -t jukebox_engine.asm -o audio.o\
-ISLK32.exe audio.o -t -v -map -o audio.isx\
+`ISAS32.exe -w 2  -t jukebox_engine.asm -o audio.o`\
+`ISLK32.exe audio.o -t -v -map -o audio.isx`\
 After that, run the following to create the ROM image for Virtual Boy:\
-DOSBOX VUIC.EXE audio.isx audio.vb\
+`DOSBOX VUIC.EXE audio.isx audio.vb`\
 Obviously, you need DOSBOX for this.\
 The resulting file audio.vb runs in VirtualBoy Emulators such as mednafen, and also can be launched from
-any proper ROM Cart solution for the VB.\
+any proper ROM Cart solution for the VB.as
 
 # Song conversion
-Refer to VBeat. In short:\
-- compose your S3M, feel free to learn by editing the provided tunes.\
-- convert it into proper data format: `python3 tracker2vb.py yourtune.s3m`.\
+Refer to VBeat. In short:
+- compose your S3M, feel free to learn by editing the provided tunes.
+- convert it into proper data format: `python3 tracker2vb.py yourtune.s3m`.
 
