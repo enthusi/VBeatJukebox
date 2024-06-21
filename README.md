@@ -31,9 +31,21 @@ After that, run the following to create the ROM image for Virtual Boy:\
 Obviously, you need DOSBOX for this.\
 The resulting file audio.vb runs in VirtualBoy Emulators such as mednafen, and also can be launched from
 any proper ROM Cart solution for the VB.as
+# Song Composition (one way of doing it)
+How to setup a usable preview for your VB instruments to be used in OpenMPT: 
+(or any tracker that supports s3m)\
+
+- Make an instrument by creating .dat waveform (use py converter or edit by hand)
+- Design instrument in songdata.asm as shown in the example file. 
+- Write note c5 in tracker and use the instrument number you just created.
+- Compile ROM and play that single note in an emulator of your choice. (I used mednafen)
+- Record that single note in any audio software. (I used audacity)
+- Import new sample into the tracker software and you're ready to use the new instrument.
 
 # Song conversion
 Refer to VBeat. In short:
 - compose your S3M, feel free to learn by editing the provided tunes.
 - convert it into proper data format: `python3 tracker2vb.py yourtune.s3m`.
+- Go through the *Compilation* steps.
+- Enjoy & Share the joy.
 
