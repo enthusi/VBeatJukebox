@@ -1,17 +1,15 @@
-# VBeatMachine
-This extends the *VirtualBeat Audio Engine* engine by an option to
+# VBeatJukebox
+This extends the [VBeat](https://github.com/enthusi/VBeat) engine by an option to
 store multiple songs in ROM and select them via controller.
 To facilitate this, some areas of the data management and hence the code needed to be rewritten.
 The core functionality and conversion from s3m are identical.
-Check *LINK* for the core engine *Vbeat*.
-free *VirtualBeat Audio Engine* for the ***Virtual Boy*** console by [PriorArt](http://priorartgames.eu).\
-Download zipped 16KB ROM image directly: [VBeat16k_PriorArt.zip](http://martinwendt.de/2021/vbeat/VBeat16k_PriorArt.zip).
+
 ## In action
-- YouTube recording:\
+- YouTube recording of the original engine:\
 [![Vbeat on YouTube](http://img.youtube.com/vi/GvSOXE-GMVo/0.jpg)](http://www.youtube.com/watch?v=GvSOXE-GMVo "VirtualBeat Audio Engine for the Virtual Boy")
 ## Credits
 - code: *Martin 'enthusi' Wendt*
-- audio: *Yogi (Tronmial)*
+- audio & composing hints: *Yogi (Tronmial)*
 - 8x16 font: *Oliver 'v3to' Lindau*
 ## Specs
 - Comes with the full source data (S3M) for 3 example songs.
