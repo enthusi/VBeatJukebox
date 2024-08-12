@@ -1,4 +1,4 @@
-SOURCE=jukebox_engine.asm
+SOURCE=vbeatjukebox.asm
 EMU=mednafen
 
 audio.vb: $(SOURCE) 

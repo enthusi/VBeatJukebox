@@ -3,13 +3,13 @@ This extends the [VBeat](https://github.com/enthusi/VBeat) engine by an option t
 store multiple songs in ROM and select them via controller.
 To facilitate this, some areas of the data management and hence the code needed to be rewritten.
 The core functionality and conversion from s3m are identical.
-
+VBeatJukebox was developed for the [Tronimal - Robonaut music album](https://www.kickstarter.com/projects/tronimal/robonaut).
 ## In action
 - YouTube recording of the original engine:\
 [![Vbeat on YouTube](http://img.youtube.com/vi/GvSOXE-GMVo/0.jpg)](http://www.youtube.com/watch?v=GvSOXE-GMVo "VirtualBeat Audio Engine for the Virtual Boy")
 ## Credits
 - code: *Martin 'enthusi' Wendt*
-- audio & composing hints: *Yogi (Tronmial)*
+- audio & composing hints: *Yogi (Tronimal)*
 - 8x16 font: *Oliver 'v3to' Lindau*
 ## Specs
 - Comes with the full source data (S3M) for 3 example songs.
