@@ -5,8 +5,7 @@ To facilitate this, some areas of the data management and hence the code needed 
 The core functionality and conversion from s3m are identical.
 VBeatJukebox was developed for the [Tronimal - Robonaut music album](https://www.kickstarter.com/projects/tronimal/robonaut).
 ## In action
-- YouTube recording of the original engine:\
-[![Vbeat on YouTube](http://img.youtube.com/vi/GvSOXE-GMVo/0.jpg)](http://www.youtube.com/watch?v=GvSOXE-GMVo "VirtualBeat Audio Engine for the Virtual Boy")
+![Screenshot.\label{fig:Robonaut}](screenshot.jpg)
 ## Credits
 - code: *Martin 'enthusi' Wendt*
 - audio & composing hints: *Yogi (Tronimal)*
