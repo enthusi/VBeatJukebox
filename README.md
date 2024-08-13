@@ -4,12 +4,12 @@ store multiple songs in ROM and select them via controller.
 To facilitate this, some areas of the data management and hence the code needed to be rewritten.
 The core functionality and conversion from s3m are identical.
 VBeatJukebox was developed for the [Tronimal - Robonaut music album](https://www.kickstarter.com/projects/tronimal/robonaut).
-## In action
-![Screenshot.\label{fig:Robonaut}](screenshot.jpg)
 ## Credits
 - code: *Martin 'enthusi' Wendt*
 - audio & composing hints: *Yogi (Tronimal)*
 - 8x16 font: *Oliver 'v3to' Lindau*
+## In action
+![Screenshot.\label{fig:Robonaut}](screenshot.jpg)
 ## Specs
 - Comes with the full source data (S3M) for 3 example songs.
 - The instruments in the S3M are sampled from the actual VBeat instruments on the Virtual Boy
