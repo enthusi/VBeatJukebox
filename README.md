@@ -30,7 +30,7 @@ The resulting file audio.vb runs in VirtualBoy Emulators such as mednafen, and a
 any proper ROM Cart solution for the VB.as
 # Song Composition (one way of doing it)
 How to setup a usable preview for your VB instruments to be used in OpenMPT: 
-(or any tracker that supports s3m)\
+(or any tracker that supports s3m)
 
 - Make an instrument by creating .dat waveform (use py converter or edit by hand)
 - Design instrument in songdata.asm as shown in the example file. 
