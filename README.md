@@ -16,7 +16,7 @@ VBeatJukebox was developed for the [Tronimal - Robonaut music album](https://www
 - All featured Instruments are free to use (give credits to Tronimal when they are due)
 ## Compilation
 ### LINUX
-A simple `make` should suffice, once you prepared all input data
+A simple `make` should suffice, once you prepared all input data.\
 Alternatively you go through the steps for Windows but use WINE and DOSBOX.
 ### WINDOWS
 Run the \
