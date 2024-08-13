@@ -1,10 +1,10 @@
 SOURCE=vbeatjukebox.asm
 EMU=mednafen
 
-audio.vb: $(SOURCE) 
-	./isas -w 2  -t $(SOURCE) -o audio.o
-	./islk audio.o -t -v -map -o audio.isx
-	./isx2vb audio.isx audio.vb
+vbeatjukebox.vb: $(SOURCE) 
+	./isas -w 2  -t $(SOURCE) -o vbeatjukebox.o
+	./islk vbeatjukebox.o -t -v -map -o vbeatjukebox.isx
+	./isx2vb vbeatjukebox.isx vbeatjukebox.vb
 
-run: audio.vb
-	$(EMU)  audio.vb
+run: vbeatjukebox.vb
+	$(EMU)  vbeatjukebox.vb
