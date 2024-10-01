@@ -845,7 +845,35 @@ _loop
         st.b r7, (16*5+o_panning)[r6]
         
         
-        mov 1,r7
+        
+    movw BG_MAP, r7
+    addi 8, r7,r7
+    
+    in.h 16*0[r7], r5
+    andi %111111111111,r5,r5 
+    st.h r5, 16*0[r7]
+    
+    in.h 16*1[r7], r5
+    andi %111111111111,r5,r5 
+    st.h r5, 16*1[r7]
+    
+    in.h 16*2[r7], r5
+    andi %111111111111,r5,r5 
+    st.h r5, 16*2[r7]
+    
+    in.h 16*3[r7], r5
+    andi %111111111111,r5,r5 
+    st.h r5, 16*3[r7]
+    
+    in.h 16*4[r7], r5
+    andi %111111111111,r5,r5 
+    st.h r5, 16*4[r7]
+    
+    in.h 16*5[r7], r5
+    andi %111111111111,r5,r5 
+    st.h r5, 16*5[r7]
+    
+    mov 1,r7         ;set all channels to active VISUALLY as well
         st.b r7 (channel_on'lo + 0)[R_ram_base]
         st.b r7 (channel_on'lo + 1)[R_ram_base]
         st.b r7 (channel_on'lo + 2)[R_ram_base]
